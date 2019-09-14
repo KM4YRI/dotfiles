@@ -1,0 +1,72 @@
+! vim: set filetype=xdefaults :
+
+! http://dotshare.it/dots/87/
+! X::DotShare
+
+!URxvt.font: xft:monaco:size=12
+URxvt.font:            xft:UbuntuMono:size=14
+URxvt.boldFont:        xft:UbuntuMono:bold:size=14
+URxvt.italicFont:      xft:UbuntuMono:italic:size=14
+URxvt.boldItalicFont:  xft:UbuntuMono:bold:italic:size=14
+
+URxvt.transparent:    false
+#URxvt.blurRadius:     10x10
+URxvt.depth:          32
+URxvt.letterSpace:    0
+URxvt.scrollBar:      false
+URxvt.underlineURLs:  true
+URxvt.urlLauncher:    firefox
+URxvt.saevLines:      4096
+
+! This requires urxvt-resize-font-git from the AUR
+!URxvt.perl-ext-common:default,matcher,clipboard
+!URxvt.resize-font.smaller: C-Down
+!URxvt.resize-font.bigger: C-Up
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+URxvt.background: [70]#151515
+
+*foreground: #D7D0C7
+*background: #151515
+
+!black
+! *color0:     #AF875F
+! *color8:     #AF875F
+*color0:     #101010
+*color8:     #404040
+
+!red
+*color1:     #E84F4F
+*color9:     #D23D3D
+
+!green
+*color2:     #B8D68C
+*color10:    #A0CF5D
+
+!yellow
+*color3:     #E1AA5D
+*color11:    #F39D21
+
+!blue
+*color4:     #7DC1CF
+*color12:    #4E9FB1
+
+!magenta
+*color5:     #9B64FB
+*color13:    #8542FF
+
+!cyan
+*color6:     #6D878D
+*color14:    #42717B
+
+!white
+*color7:     #dddddd
+*color15:    #dddddd
+
+URxvt*borderColor:        #151515
+URxvt*colorBD:            #ffffff
+URxvt*cursorColor:        #ff8939
+URxvt*cursorColor2:       #151515
+
